@@ -67,3 +67,78 @@ h1 .h1_jp{
 .only_sp{
     display: none;
 }
+
+header section.header_item
+nav.nav_main_item {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+nav {
+    display: block;
+}
+
+header section.header_item
+nav.nav_main_item ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin-block-start: lem;
+    margin-block-end: lem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header section.header_item
+nav.nav_main_item ul li:before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(0, -50%)
+}
+
+element.style{
+    top: 72px;
+}
+
+.btn_nav_controll {
+    border-color: #000;
+    position: absolute;
+    right: 30px;
+    transform: translate(0, -50%);
+}
+
+.btn_nav_controll {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 30px;
+    height: 28px;
+}
+
+.btn_nav_controll:after {
+    background-color: #fff;
+}
+
+.btn_nav_controll:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
